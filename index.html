@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <script src='onload.js'></script>
+    <center>
+    <div id='entrypage' onload='onloadFn()'>
+        <center>
+            <h2 id='entryinstruction'>Input Appointment Date Below</h2>
+            <input type='date' id='entrybox' placeholder='YYYY-MM-DD'>
+            <button class="btn waves-effect waves-light" type="submit" id='submit' onclick='entrysubmit()'>Submit
+                <i class="large material-icons">check</i>
+            </button>
+        </center>
+    </div>
+    </center>
+
+    <div id='mainpage'>
+        <center>
+            <div class='rows'>
+                <div class='dayone'>
+                    <h1 id='dayone'>one</h1>
+                    <p class='instructtext'>On day one...</p>
+                </div>
+                <div class='daytwo'>
+                    <h1 id='daytwo'>two</h1>
+                    <p class='instructtext'>On two one...</p>
+                </div>
+                <div class='daythree'>
+                    <h1 id='daythree'>three</h1>
+                    <p class='instructtext'>On three one...</p>
+                </div>
+                <div class='dayfour'>
+                    <h1 id='dayfour'>four</h1>
+                    <p class='instructtext'>On four one...</p>
+                </div>
+                <div class='dayfive'>
+                    <h1 id='dayfive'>five</h1>
+                    <p class='instructtext'>On five one...</p>
+                </div>
+        </center>
+
+
+
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
