@@ -1,2 +1,5 @@
-console.log('Onload Function')
-//document.body.classList.toggle('onloadBody')
+if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+}
+
+window.scrollTo(0,0);
