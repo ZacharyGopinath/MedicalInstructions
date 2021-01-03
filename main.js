@@ -95,4 +95,4 @@ function entrysubmit(){
     mainpage.style.opacity = 1;
     document.body.style.overflow = 'auto'
 }; 
-}
+} 
